@@ -62,7 +62,7 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 Contributions are always welcome & encouraged! :smile: If you'd like to contribute, please see [Contributing Guidelines](CONTRIBUTE.md).
 
-## Contributors
+## Original Contributors
 1. [Nikhil Bhaskar](https://github.com/Nikhil22)
 2. [Chris Fraser](https://github.com/chrisfraser)
 3. [Rowan de Haas](https://github.com/rowandh)
