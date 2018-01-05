@@ -9,11 +9,17 @@ import "./ConvertLib.sol";
 
 contract MetaCoin {
 	mapping (address => uint) balances;
+  string public name;
+  string public symbol;
+  uint8 public decimals;
 
 	event Transfer(address indexed _from, address indexed _to, uint256 _value);
 
 	function MetaCoin() {
 		balances[tx.origin] = 10000;
+    name = "MetaCoin-Test";
+    decimals = 18;
+    symbol = "METACT";
 	}
 
 	function sendCoin(address receiver, uint amount) returns(bool sufficient) {
